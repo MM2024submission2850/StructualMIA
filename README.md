@@ -2,7 +2,7 @@
 
 ### Requirements
 
-**A suitable conda environment named ldm can be created and activated with:
+**A suitable conda environment named ldm for running Latent Diffusion Model and Stable Diffusion can be created and activated with:
 
 conda env create -f environment.yaml
 
