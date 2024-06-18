@@ -19,7 +19,7 @@ python mia.py --imgname /path/to/image_dir/image_name --H 256 --W 256 --scale 1.
 
 **Parameters:
 
---imgname: path to the image
+- '--imgname': path to the image
 
 --H: height of the image in pixel space
 
