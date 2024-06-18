@@ -4,17 +4,18 @@
 
 **A suitable conda environment named ldm for running Latent Diffusion Model and Stable Diffusion can be created and activated with:
 
-conda env create -f environment.yaml
+```conda env create -f environment.yaml
 
-conda activate ldm
+```conda activate ldm
 
 ### Run Structural MIA
 
 **To execute Structural MIA over pretrained latent diffusion model, please execute the following command:
 
-cd scripts
+```cd scripts
 
-python mia.py --imgname /path/to/image_dir/image_name --H 256 --W 256 --scale 1.0 --prompt textual prompt of the image --yaml /path/to/model_yaml_file --ckpt /path/to/model_checkpoint
+```python mia.py --imgname /path/to/image_dir/image_name --H 256 --W 256 --scale 1.0 --prompt textual prompt of the image --yaml /path/to/model_yaml_file --ckpt /path/to/model_checkpoint
+
 
 **Parameters:
 
@@ -36,11 +37,12 @@ python mia.py --imgname /path/to/image_dir/image_name --H 256 --W 256 --scale 1.
 
 **To execute Structural MIA over pretrained latent diffusion model, please execute the following command:
 
-cd cal_metric
+```cd cal_metric
 
-python cal_auc_TPR.py --member_file /path/to/member_ssim_file --nonmember_file /path/to/nonmember_ssim_file
+```python cal_auc_TPR.py --member_file /path/to/member_ssim_file --nonmember_file /path/to/nonmember_ssim_file
 
-python cal_asr_precision_recall.py --member_file /path/to/member_ssim_file --nonmember_file /path/to/nonmember_ssim_file --data_num_thresh 1000
+```python cal_asr_precision_recall.py --member_file /path/to/member_ssim_file --nonmember_file /path/to/nonmember_ssim_file --data_num_thresh 1000
+
 
 **Parameters:
 
