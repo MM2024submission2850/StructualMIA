@@ -3,10 +3,12 @@
 ### Requirements
 
 **A suitable conda environment named ldm for running Latent Diffusion Model and Stable Diffusion can be created and activated with:
+```shell
 
 conda env create -f environment.yaml
 
 conda activate ldm
+```
 
 ### Run Structural MIA
 
